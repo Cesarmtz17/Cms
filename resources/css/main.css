@@ -1,0 +1,70 @@
+body{
+    background-color: #f0f0f0;
+}
+
+.background_main{
+    background-image: url(../img/img_publi.png);
+    width: 100vw;
+    height: 50vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+   
+}
+
+.logo{
+    background-image: url(../img/logo_cecati-removebg-preview.png);
+    width: 100%;
+    height: 100%;
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: 100px;
+}
+
+.post_container{
+    border: 3px solid #570202;
+    border-radius: 10px;
+    margin: 45px;
+    
+}
+
+.post_img{
+    width: 100%;
+    height: auto;
+}
+
+.post_title,
+.post_date{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.login_container{
+    width: 30%;
+    margin: 50px auto;
+    border: 1px solid #f0f0f0;
+    border-radius: 20px;
+    background-color: rgba(173, 173, 179, 0.267);
+    padding: 15px;
+}
+
+.login_container > .txtUsuarioLogin{
+    width: 100%;
+    
+}
+
+.login_container > .button{
+    margin-top: 15px;
+    
+    
+}
+
+.cuadro{
+    width: 100%;
+    margin: 5px;
+    border: 1px solid #0000003b;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.534);
+    padding: 15px;
+}
